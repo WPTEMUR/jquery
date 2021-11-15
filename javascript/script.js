@@ -134,7 +134,6 @@ $('.third-sroll-to-id').click((e) => {
 })
 
 $('.read-more').click(() => {
-  
   if ($('.read-more').html() == 'Read More') {
     $('.text-hidden').removeClass('hidden')
     $('.read-more').html('Hidden') 
